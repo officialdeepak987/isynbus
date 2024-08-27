@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    /* background: #ff6903; */
+    color: #ffffff;
+}
+
+.car-logo img{
+    width: 322px;
+}
+.flex{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+    background-image: url("https://cdn-camp.mini-sites.net/Publish/d9897b6ebb894b1db466af656a782027/d965dab175414b35885fefa1fee9900a/src/contents/816c43a398ff4c0b9b0c5853e47376fc_3025958_crafter_Lp_f2.webp");
+
+}
+.logo img{
+    width: 200px;
+    margin-bottom: 30px;
+
+}
+.logo input{
+    width: 100%;
+    display: inline-block;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #ff6903;
+    padding: 8px 0;
+}
+.first-section{
+    position: relative;
+    width: 370px;
+    border-radius: 20px 20px 0 0;
+
+    
+}
+.logo{
+   /* background: #ffffff; */
+   background-image: url("https://cdn-camp.mini-sites.net/Publish/d9897b6ebb894b1db466af656a782027/d965dab175414b35885fefa1fee9900a/src/contents/23f739c83580457196154df98a496d17_form_bg.webp");
+    text-align: center;
+    padding: 20px 20px 40px 20px;
+    border-radius: 20px 20px 0 0;
+}
+.logo p{
+    color: rgb(255, 95, 1);
+    font-size: 21px;
+    line-height: 45px;
+}
+.logo input::placeholder {
+    color: red;
+    text-align: right;
+  }
+  .form-des{
+    color: rgb(51, 51, 51);
+    font-size: 18px;
+    margin-top: 15px;
+    display: block;
+  }
+  .btn-submit{
+    background-color: rgb(29, 161, 56);
+    outline: none;
+    border: none;
+    border-radius: 15px;
+    padding: 5px 39px;
+    font-size: 19px;
+    color: #ffffff;
+    margin-top: 15px;
+  }
+  .car-logo{
+    position: absolute;
+    bottom: 102px;
+    left: 10px;
+  }
+/* -------------- */
+.heading{
+    text-align: center;
+}
+.heading h1{
+    font-size: 80px;
+}
+.heading img{
+    height: 90px;
+}
+.heading p{
+    font-size: 30px;
+}
+.img-para{
+    position: relative;
+}
+.img-para img{
+    width: 190px;
+}
+.img-para p{
+    position: absolute;
+    bottom: 17px;
+    left: 47px;
+    width: 120px;
+}
+.grid-sec{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    margin-top: 20px;
+}
+/* -------------- */
+.menu-bar{
+    text-align: right;
+}
+.logo-girl{
+    position: relative;
+}
+.side-girl{
+    position: absolute;
+    right: 0;
+    top: 54px;
+}
+.side-logo img{
+    width: 250px;
+    }
+    .side-girl img{
+        height: 545px;
+    } 
+
+
+
+    .pagra-section{
+        background: #ffffff;
+        color: black;
+        text-align: right;
+        
+        
+    }
+    .pagra-section p{
+        margin-top: 20px;
+        margin: 30px;
+    font-size: 22px;
+    line-height:25px;
+    }
+    .pagra-section a{
+        display: inline;
+    }
